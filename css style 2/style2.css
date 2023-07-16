@@ -1,0 +1,23 @@
+body,
+head,
+h1,p{
+    background-color: pink;
+    padding:10px;
+}
+ul{
+    list-style-type:circle;
+}
+li{
+    margin:10px 0px 0px 0px;
+}
+#contact{
+    color:blue;
+}
+input{
+    border:2px solid ;
+    background-color: red;
+    color:antiquewhite;
+}
+button{
+    background-color: greenyellow;
+}

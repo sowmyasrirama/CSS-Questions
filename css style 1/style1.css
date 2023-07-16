@@ -1,0 +1,25 @@
+body,
+h1,p{
+  background-color: aqua;
+  padding:10px;
+}
+ul{
+    width: 100px;
+}
+li{
+    margin:10px;
+}
+.service{
+    color:brown;
+}
+button{
+    background-color:green;
+    color:pink;
+    cursor: pointer;
+}
+h4{
+    color:black;
+}
+input{
+    border: 2px solid red;
+}

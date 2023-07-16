@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  head,p,
+  .contact {
+    font-family: "Poppins", sans-serif;
+    background-color:pink;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+   
+  .about-me .about-heading {
+    font-size: 1em;
+    text-align: left;
+  }
+  ol{
+    list-style-type:circle;
+  }
+  li{
+    margin:10px 0px 0px 0px;
+  }
+
+  /*  Contact  */
+  .contact {
+    position: relative;
+    height: 92vh;
+  }
+  
+  .contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+  
+  .contact-content .mail {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  .contact-content .links {
+    color: red;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .contact-content a {
+    text-decoration: none;
+    color: #684ba1;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact-content a:hover{
+    color: #f0f0e6;
+  } 
+
+  button{
+    background-color: yellow;
+  }
